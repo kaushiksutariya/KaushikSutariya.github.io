@@ -1,155 +1,442 @@
 <!DOCTYPE HTML>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Kaushik Sutariya</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Portfolio webpage of Kaushik Sutariya" />
-      <meta name="keywords"
-          content="portfolio,website,personal website,github,projects,computer science and engineering" />
-      <meta name="author" content="Kaushik Sutariya" />
-      <!--------------------Social Media icons------------------------>
-      <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-      <link rel="icon" type="image/png" href="/images/logo.png">
-      <link
-          href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
-          rel="stylesheet">
-      <link
-          href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
-          rel="stylesheet">
-      <link
-          href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap"
-          rel="stylesheet">
-      <!-- Animate.css -->
-      <link rel="stylesheet" href="css/animate.css">
-      <!-- Bootstrap  -->
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <!-- Theme style  -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Modernizr JS -->
-      <script src="js/modernizr-2.6.2.min.js"></script>
-      <script src="db/db.js"></script>
-      <script type="module" src="js/populateHTML.js"></script>
-   </head>
 
-   <body>
-      <div id="colorlib-page">
-         <div class="container-wrap">
-            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"
-                data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-controls="navbar"><i></i></a>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kaushik Sutariya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio webpage of Kaushik Sutariya" />
+    <meta name="keywords" content="portfolio,website,personal website,github,projects,computer science and engineering" />
+    <meta name="author" content="Kaushik Sutariya" />
+    <!--------------------Social Media icons------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script>
+        bio: {
+                about: {
+                    text: [
+                        "Hi &#128075;",
+                        "I'm Kaushik Sutariya. Currently, i’m doing a job as a Software Developer at MR Tech., Surat. I'm specialized in building <b> C# Windows Softwares + Python Scripts.",
+                        "I have completed my Bachelor in CS from Gujarat Technological University, Gujarat. I'm a developer, geek and curious human	besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.",
+                        "I love to Travel+Code+Music.",
+                    ],
+                },
+                contact: {
+                    text: [
+                        "If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email at kaushiksutariya@gmail.com",
+                    ],
+                },
+            },
+            skills: [{
+                    title: "Computer S/W Languages",
+                    skillName: "C#, C++, C",
+                    color: "1",
+                    percentage: "90",
+                }, {
+                    title: "Languages",
+                    skillName: "Python",
+                    color: "2",
+                    percentage: "75",
+                }, {
+                    title: "Mobile App Dev Languages",
+                    skillName: "Flutter, Dart, Firebase",
+                    color: "4",
+                    percentage: "70",
+                }, {
+                    title: "Database",
+                    skillName: "Ms-SQL Server, MySql",
+                    color: "3",
+                    percentage: "85",
+                }, {
+                    title: "Design",
+                    skillName: "HTML, Bootstrap, SCSS",
+                    color: "5",
+                    percentage: "40",
+                }, {
+                    title: "Version Control",
+                    skillName: "GitHub",
+                    color: "6",
+                    percentage: "70",
+                }, {
+                    title: "Tools",
+                    skillName: "Postman,  XAMPP",
+                    color: "2",
+                    percentage: "75",
+                }, {
+                    title: "Tools",
+                    skillName: "Infragistics, SAP Crystal Reports, MS-Office",
+                    color: "1",
+                    percentage: "75",
+                }, {
+                    title: "Editor",
+                    skillName: "Visual Studio, Android Studio, VS Code",
+                    color: "3",
+                    percentage: "80",
+                },
+                // {
+                // 	title: "API",
+                // 	skillName: "REST APIs, Documentation",
+                // 	color: "4",
+                // 	percentage: "80",
+                // },
+            ],
+            projects: {
+                // web: [
+                // 	{
+                // 		projectName: "ERP Student",
+                // 		image: "images/pERP.png",
+                // 		summary:
+                // 			"Developed a full stack ERP application to provide management of student's data with admin interface.",
+                // 		preview: "https://github.com/KaushikSutariya/ERP-Student",
+                // 		techStack: ["JavaScript","CSS","PHP","MySQL"],
+                // 	},
+                // 	{
+                // 		projectName: "Feedback Form",
+                // 		image: "images/pERP.png",
+                // 		summary:
+                // 			"Developed a .Net application to render a list of faculty member fetched from DB. Filtered the Faculties based on department and take feedback from students and generate faculty evaluation report.",
+                // 		preview: "",
+                // 		techStack: [".Net", "SQL Server", "CSS", "JavaScript"],
+                // 	},
+                // ],
+                software: [{
+                        projectName: "Diamond Inventory System",
+                        image: "images/PdiamonInvSys.png",
+                        summary: "It is a vast inventory and Diamond manufacturing process tracking system. It's a complete ERP package for Diamond manufacturing companies. DIS has been developed to incorporate all possibilities and permutations, combinations to address all needs of diamond manufacturing companies. DIS deals with all the requirement of Diamond Industries in managing very complex Diamond Manufacturing process.",
+                        preview: "",
+                        techStack: ["c#", "SQL Server", ".Net Framework", "Infragistics", "SAP Crystal Reports"],
+                    },
+                    // {
+                    // 	projectName: "Face Recognisation Based Attendance System",
+                    // 	image: "images/PFaceRecAttSys.png",
+                    // 	summary:
+                    // 		"Standalone PC software to mark attendance of multiple employees at a time. There is no need to stand in front of the camera and no physical involvement. Included a website and android app to manage data.	",
+                    // 	preview: "",
+                    // 	techStack: ["Python", "OpenCV", "TKinter","PAGE","MySQL","XAMPP","NumPy","Pandas","PIL"],
+                    // },
+                    {
+                        projectName: "Textile Inventory System",
+                        image: "images/pTexInvSys.jpg",
+                        summary: "Software to store and manage, calculate, and share textile information and generate bills. It gives prediction and full analysis of a data.",
+                        preview: "",
+                        techStack: ["c#", "SQL Server", ".Net Framework", "Infragistics", "SAP Crystal Reports"],
+                    }, {
+                        projectName: "Task Control",
+                        image: "images/PTaskControl.jpg",
+                        summary: "Software to store and manage work task assign by manager to the employees in a company. It gives reminder of work and make tracking of employee's work.",
+                        preview: "",
+                        techStack: ["c#", "SQL Server", ".Net Framework", "Infragistics", "SAP Crystal Reports"],
+                    },
+                    // {
+                    // 	projectName: "Payroll System",
+                    // 	image: "images/pPayRollSys.jpg",
+                    // 	summary:
+                    // 		"Complete payroll software with support of biometric device. Secure, scalable and maintenance-free. Make your employees smile with timely, accurate paychecks.",
+                    // 	preview: "",
+                    // 	techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
+                    // },
+                    // {
+                    // 	projectName: "QR Generator, WhatsApp messages and Email sender",
+                    // 	image: "images/pQrGenerator.jpg",
+                    // 	summary:
+                    // 		"Automatic softwar that runs with computer startups in system tray. It creates QR code of .txt file and send emails or whatsapp messages",
+                    // 	preview: "",
+                    // 	techStack: ["c#",".Net Framework"],
+                    // },
+                ],
+                // android: [
+                // 	{
+                // 		projectName: "BMI-App",
+                // 		image: "images/pBMI.jpg",
+                // 		summary:
+                // 			"The Application generates BMI reports by taking few detais of a person.",
+                // 		preview: "",
+                // 		techStack: ["Flutter","Dart", "Android Studio"],
+                // 	},
+                // 	{
+                // 		projectName: "English Words",
+                // 		image: "images/pEngWords.jpg",
+                // 		summary:
+                // 			"A learning Application that displays a list of english words in two languages: English and Gujarati.",
+                // 		preview: "",
+                // 		techStack: ["Flutter","Dart", "Android Studio","Google Translator"],
+                // 	},
+                // 	{
+                // 		projectName: "WorkFlow",
+                // 		image: "images/pWorkFlow.jpg",
+                // 		summary:
+                // 			"Employee management system application that we ever used to manage our team, It's very easy to use. Its interconnected processes will help you increase efficiency, foster collaboration, and macro-monitor performance. This app is one-stop solution for managing your entire business. This app manages the all task of all the current employees of the company.",
+                // 		preview: "",
+                // 		techStack: ["Flutter","Dart", "Android Studio","REST API","Firebase"],
+                // 	},
+                // 	{
+                // 		projectName: "ETEX",
+                // 		image: "images/pETEX.jpg",
+                // 		summary:
+                // 			"This app manage all bills in Textile Industry, Send WhatsApp messages and emails to the customers.",
+                // 		preview: "",
+                // 		techStack: ["Flutter","Dart", "Android Studio","REST API","Firebase"],
+                // 	},
+                // ],
+                freelance: [
+                    // {
+                    // 	projectName: "SnylloAir.com",
+                    // 	image: "images/snylloair.png",
+                    // 	summary:
+                    // 		"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+                    // 	preview: "https://www.snylloair.com/",
+                    // 	techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+                    // },
+                    // {
+                    // 	projectName: "Delivery+",
+                    // 	image: "images/AM-Logo-.png",
+                    // 	summary:
+                    // 		"Android Application to display website in android devices.",
+                    // 	preview:
+                    // 		"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+                    // 	techStack: ["Android", "JAVA", "Play Store"],
+                    // },
+                ],
+            },
+            experience: [{
+                    title: "MR Diamond",
+                    duration: "November 2022 - Present",
+                    subtitle: "Intern",
+                    details: [
+                        "Worked on Diamond Managment System and Solved various DS queries.",
+                        "File Transfer system according to employee's punching .",
+                    ],
+                    tags: ["C#", "C/C++", "MySQL", "SAP Crystal Report", "Dev Express Controls"],
+                    icon: "group",
+                }, {
+                    title: "UpWork-Freelancer",
+                    duration: "September 2021 - September 2021",
+                    subtitle: "Python Developer",
+                    details: [
+                        "Worked as a Python developer to scrap data from weather website.",
+                        "Developed a script that scrap data every 1 minute and made csv according to that data.",
+                    ],
+                    // tags: [
+                    // 	"Flutter",
+                    // 	"C#",
+                    // 	"Python",
+                    // 	"Multiple Programming languages",
+
+                    // ],
+                    icon: "group",
+                }, {
+                    title: "Adis Technologies",
+                    duration: "June 2019 - September 2021",
+                    subtitle: "Software Engineer",
+                    details: [
+                        "Worked on Desktop Applications. APIs, SQL Server. The main projects are Diamond Inventory System, Import Export System, Payroll. In which I have developed new, efficient, and well-tested code.",
+                        "Crafted and Integrated new reports using SQL-Server. Coded software updates to add new features, close security holes, and resolve defects.",
+                        "Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
+                    ],
+                    tags: [
+                        "C#",
+                        "SQL-Server",
+                        "Infragistics",
+                        "SAP Crystal Reports",
+                        "Github",
+                    ],
+                    icon: "group",
+                },
+
+            ],
+            education: [{
+                title: "Bachelors in Computer Engineering",
+                duration: "2017-2021",
+                subtitle: "Gujarat Technological University",
+                details: [
+                    "CGPA : 9.07",
+                    // "WES Evaluation Score : 3.83/4",
+                    // "Received 500+ stars and 300+ forks on GitHub projects.",
+                ],
+                tags: [
+                    "Data Structures & Algorithms",
+                    "Operating Systems",
+                    "Database Management System",
+                    "Python Programming",
+                    "Machine Learning",
+                ],
+                icon: "graduation-cap",
+            }, {
+                title: "Class 11-12th in Science and Mathematics",
+                duration: "2015-2017",
+                subtitle: "Gujarat Secondary and Higher Secondary Education Board",
+                details: [
+                    "Qualified JEE Main",
+                    "Secured 84PR in Class 12th Boards Examinations.",
+                ],
+                tags: ["Physics", "Chemistry", "Mathematics"],
+                icon: "book",
+            }, ],
+            footer: [
+                // {
+                // 	label: "Dev Profiles",
+                // 	data: [
+                // 		// {
+                // 		// 	text: "Stackoverflow",
+                // 		// 	link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+                // 		// },
+                // 		{
+                // 			text: "GitHub",
+                // 			link: "https://github.com/pratikboghani",
+                // 		},
+                // 		// {
+                // 		// 	text: "LeetCode",
+                // 		// 	link: "https://leetcode.com/somawatvinay/",
+                // 		// },
+                // 	],
+                // },
+                {
+                    label: "Resources",
+                    data: [{
+                            text: "Enable Dark/Light Mode",
+                            func: "enableDarkMode()",
+                        }, {
+                            text: "Print this page",
+                            func: "window.print()",
+                        },
+
+                    ],
+                }, {
+                    label: "Social Profiles",
+                    data: [{
+                        text: "Linkedin",
+                        link: "https://www.linkedin.com/in/pratik-boghani-2b73321b1",
+                    }, {
+                        text: "Instagram",
+                        link: "https://www.instagram.com/kaushik_Sutariya_Official/",
+                    }, {
+                        text: "Buy me a coffee",
+                        link: "https://www.buymeacoffee.com/kaushiksutariya",
+                    }, ],
+                }, {
+                    label: "copyright-text",
+                    data: [
+                        "Made with &hearts; by Kaushik Sutariya.",
+                        "&copy; No Copyrights. Feel free to use this template."
+                    ],
+                },
+            ],
+    </script>
+    <script type="module" src="js/populateHTML.js"></script>
+</head>
+
+<body>
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
             <!--------------------[START] Side Bar-------------------------->
-            <aside id="colorlib-aside" role="complementary"
-                class="border js-fullheight no-print">
-               <div class="text-center">
-                  <div class="author-img">
-                     <img src="images/logo.png">
-                  </div>
-                  <h1 id="colorlib-logo"><a href="./index.html">Kaushik Sutariya</a>
-                  </h1>
-               </div>
-               <nav id="colorlib-main-menu" role="navigation" class="navbar"
-                   style="padding-top: 2em">
-                  <div id="navbar" class="collapse">
-                     <ul>
-                        <li><a href="#" data-nav-section="about">About</a></li>
-                        <li><a href="#" data-nav-section="skills">Skills</a>
-                        </li>
-                        <li><a href="#" data-nav-section="projects">Projects</a>
-                        </li>
-                        <li><a href="#" data-nav-section="blogs">Blogs</a>
-                        </li>
-                        <li><a href="#" data-nav-section="experience">Work
+            <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
+                <div class="text-center">
+                    <div class="author-img">
+                        <img src="images/logo.png">
+                    </div>
+                    <h1 id="colorlib-logo"><a href="./index.html">Kaushik Sutariya</a>
+                    </h1>
+                </div>
+                <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
+                    <div id="navbar" class="collapse">
+                        <ul>
+                            <li><a href="#" data-nav-section="about">About</a></li>
+                            <li><a href="#" data-nav-section="skills">Skills</a>
+                            </li>
+                            <li><a href="#" data-nav-section="projects">Projects</a>
+                            </li>
+                            <li><a href="#" data-nav-section="blogs">Blogs</a>
+                            </li>
+                            <li><a href="#" data-nav-section="experience">Work
                               Experience</a></li>
-                        <li><a href="#"
-                               data-nav-section="education">Education</a></li>
-                        <li><a href="#" data-nav-section="contact">Contact</a>
-                        </li>
-                     </ul>
-                  </div>
-               </nav>
+                            <li><a href="#" data-nav-section="education">Education</a></li>
+                            <li><a href="#" data-nav-section="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </aside>
             <!--------------------[END] Side Bar---------------------------->
             <!--------------------[START] Main Page------------------------->
             <div id="colorlib-main">
-               <!--------------------[START] About me-------------------------->
-               <section class="colorlib-about" data-section="about">
-                  <div class="colorlib-narrow-content">
-                     <div class="row animate-box"
-                         data-animate-effect="fadeInLeft">
-                        <div class="about-desc">
-                           <h1>About</h1>
-                           <p>Hi &#128075; <br>I'm Kaushik Sutariya. Currently, i’m a Software Developer at MR Tech, Surat. 
-                              I'm specialized in building <b>C# Windows Softwares + Python Scripts.</b> 
-                              I have completed my Bachelor in Computer Science and Technology from <b>Gujarat Technological University, Gujarat.</b>
-                           </p>
-                           <p>I'm a <b>developer</b>, geek and curious human
-                              besides being an OpenSource enthusiast. I have
-                              experience of delivering solutions for interesting
-                              problems from startup and industry space.</p>
-                           <p class="finalText">I love to Travel+Code+Music.</p>
+                <!--------------------[START] About me-------------------------->
+                <section class="colorlib-about" data-section="about">
+                    <div class="colorlib-narrow-content">
+                        <div class="row animate-box" data-animate-effect="fadeInLeft">
+                            <div class="about-desc">
+                                <h1>About</h1>
+                                <p>Hi &#128075; <br>I'm Kaushik Sutariya. Currently, i’m a Software Developer at MR Tech, Surat. I'm specialized in building <b>C# Windows Softwares + Python Scripts.</b> I have completed my Bachelor in Computer Science and
+                                    Technology from <b>Gujarat Technological University, Gujarat.</b>
+                                </p>
+                                <p>I'm a <b>developer</b>, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.</p>
+                                <p class="finalText">I love to Travel+Code+Music.</p>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </section>
-               <!--------------------[END] About me---------------------------->
-               <!--------------------[START] Skills---------------------------->
-               <section class="colorlib-skills" data-section="skills">
-                  <div class="colorlib-narrow-content">
-                     <div class="row row-bottom-padded-sm animate-box"
-                         data-animate-effect="fadeInLeft">
-                        <div class="about-desc">
-                           <h1>Skills</h1>
+                    </div>
+                </section>
+                <!--------------------[END] About me---------------------------->
+                <!--------------------[START] Skills---------------------------->
+                <section class="colorlib-skills" data-section="skills">
+                    <div class="colorlib-narrow-content">
+                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                            <div class="about-desc">
+                                <h1>Skills</h1>
+                            </div>
                         </div>
-                     </div>
-                     <div id="skills" class="row">
-                     </div>
-                  </div>
-               </section>
-               <!--------------------[END] Skills------------------------------>
-               <!--------------------[START] Projects-------------------------->
-               <section class="colorlib-projects no-print" data-section="projects">
-                  <div class="colorlib-narrow-content">
-                     <div class="row row-bottom-padded-sm animate-box"
-                         data-animate-effect="fadeInLeft">
-                        <div class="about-desc">
-                           <h1>Projects</h1>
+                        <div id="skills" class="row">
                         </div>
-                     </div>
-                     <ul id="accordion" class="accordion animate-box"
-                         data-animate-effect="fadeInLeft">
-                        <li>
-                           <!---      <div class="link">
+                    </div>
+                </section>
+                <!--------------------[END] Skills------------------------------>
+                <!--------------------[START] Projects-------------------------->
+                <section class="colorlib-projects no-print" data-section="projects">
+                    <div class="colorlib-narrow-content">
+                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                            <div class="about-desc">
+                                <h1>Projects</h1>
+                            </div>
+                        </div>
+                        <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
+                            <li>
+                                <!---      <div class="link">
                               <p style="margin-bottom: 0px">Web Projects (2)</p>
                               <i class="fa fa-chevron-down"></i>
                            </div>
                            <ul id="web-projects" class="submenu">
                            </ul> -->
-                        </li>
-                        <li>
-                           <div class="link">
-                              <p style="margin-bottom: 0px">
-                                 <a  target="_blank">Desktop Projects (5)</a>    
-                               <!--  href="https://drive.google.com/drive/folders/1lVnZOBQHc61p5XvOgStNwmC2arNqMIyR?usp=share_link" -->
-                              </p>
-                              <i class="fa fa-chevron-down"></i>
-                           </div>
-                           <ul id="software-projects" class="submenu">
-                           </ul>
-                        </li>
-                        <li>
-                     <!---       <div class="link">
+                            </li>
+                            <li>
+                                <div class="link">
+                                    <p style="margin-bottom: 0px">Desktop Projects (5)</p>
+                                    <i class="fa fa-chevron-down"></i>
+                                </div>
+                                <ul id="software-projects" class="submenu">
+                                </ul>
+                            </li>
+                            <li>
+                                <!---       <div class="link">
                               <p style="margin-bottom: 0px">Android Projects (4)
                               </p>
                               <i class="fa fa-chevron-down"></i>
                            </div>--->
-                         <!-------------   <ul id="android-projects" class="submenu">
+                                <!-------------   <ul id="android-projects" class="submenu">
                            </ul>----------------->
-                        </li>
-                        <!-- <li>
+                            </li>
+                            <!-- <li>
                            <div class="link">
                               <p style="margin-bottom: 0px">Freelance Projects
                               </p>
@@ -158,12 +445,12 @@
                            <ul id="freelance-projects" class="submenu">
                            </ul>
                         </li> -->
-                     </ul>
-                  </div>
-               </section>
-               <!--------------------[END] Projects---------------------------->
-               <!--------------------[START] Blogs----------------------------->
-               <!-- <section class="colorlib-blogs no-print" data-section="blogs">
+                        </ul>
+                    </div>
+                </section>
+                <!--------------------[END] Projects---------------------------->
+                <!--------------------[START] Blogs----------------------------->
+                <!-- <section class="colorlib-blogs no-print" data-section="blogs">
                   <div class="colorlib-narrow-content">
                      <div class="row row-bottom-padded-sm animate-box"
                          data-animate-effect="fadeInLeft">
@@ -187,80 +474,73 @@
                      </ul>
                   </div>
                </section> -->
-               <!--------------------[END] Blogs------------------------------->
-               <!--------------------[START] Work Experience------------------->
-               <section class="colorlib-experience" data-section="experience">
-                  <div class="colorlib-narrow-content">
-                     <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
-                         data-animate-effect="fadeInLeft">
-                        <div class="about-desc">
-                           <h1>Work <span
-                                  style="color: #f9bf3f">Experience</span>
-                           </h1>
+                <!--------------------[END] Blogs------------------------------->
+                <!--------------------[START] Work Experience------------------->
+                <section class="colorlib-experience" data-section="experience">
+                    <div class="colorlib-narrow-content">
+                        <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                            <div class="about-desc">
+                                <h1>Work <span style="color: #f9bf3f">Experience</span>
+                                </h1>
+                            </div>
                         </div>
-                     </div>
-                     <div class="timeline-centered" id="experience">
-                     </div>
-                  </div>
-               </section>
-               <!--------------------[END] Work Experience--------------------->
-               <!--------------------[START] Education------------------------->
-               <section class="colorlib-education" data-section="education">
-                  <div class="colorlib-narrow-content">
-                     <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
-                         data-animate-effect="fadeInLeft">
-                        <div class="about-desc">
-                           <h1>Education</h1>
+                        <div class="timeline-centered" id="experience">
                         </div>
-                     </div>
-                     <div class="timeline-centered" id="education">
-                     </div>
-                  </div>
-               </section>
-               <!--------------------[END] Education--------------------------->
-               <!--------------------[START] Contact--------------------------->
-               <section class="colorlib-contact" data-section="contact">
-                  <div class="colorlib-narrow-content">
-                     <div class="row row-bottom-padded-sm animate-box"
-                         data-animate-effect="fadeInLeft">
-                        <div class="about-desc">
-                           <h1>Contact</h1>
+                    </div>
+                </section>
+                <!--------------------[END] Work Experience--------------------->
+                <!--------------------[START] Education------------------------->
+                <section class="colorlib-education" data-section="education">
+                    <div class="colorlib-narrow-content">
+                        <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                            <div class="about-desc">
+                                <h1>Education</h1>
+                            </div>
                         </div>
-                        <p>If you would like to get in touch with me, be it for
-                           exploring a technology, a business, or to just say
-                           hi, feel free to send me an email at
-                           kaushiksutariya01@gmail.com
-                        </p>
-                     </div>
-                  </div>
-               </section>
-               <!--------------------[END] Contact----------------------------->
-               <!--------------------[START] Footer---------------------------->
-               <section class="colorlib-footer no-print" data-section="footer">
-                  <div class="colorlib-narrow-content">
-                     <footer class="footer" id="footer">
-                     </footer>
-                  </div>
-               </section>
-               <!--------------------[END] Footer------------------------------>
+                        <div class="timeline-centered" id="education">
+                        </div>
+                    </div>
+                </section>
+                <!--------------------[END] Education--------------------------->
+                <!--------------------[START] Contact--------------------------->
+                <section class="colorlib-contact" data-section="contact">
+                    <div class="colorlib-narrow-content">
+                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                            <div class="about-desc">
+                                <h1>Contact</h1>
+                            </div>
+                            <p>If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email at kaushiksutariya01@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!--------------------[END] Contact----------------------------->
+                <!--------------------[START] Footer---------------------------->
+                <section class="colorlib-footer no-print" data-section="footer">
+                    <div class="colorlib-narrow-content">
+                        <footer class="footer" id="footer">
+                        </footer>
+                    </div>
+                </section>
+                <!--------------------[END] Footer------------------------------>
             </div>
             <!-----[END] Main Page--------->
-         </div>
-      </div>
-      <!-- jQuery -->
-      <script src="js/jquery.min.js"></script>
-      <!-- jQuery Easing -->
-      <script src="js/jquery.easing.1.3.js"></script>
-      <!-- Bootstrap -->
-      <script src="js/bootstrap.min.js"></script>
-      <!-- Waypoints -->
-      <script src="js/jquery.waypoints.min.js"></script>
-      <!-- Flexslider -->
-      <script src="js/jquery.flexslider-min.js"></script>
-      <!-- Counters -->
-      <script src="js/jquery.countTo.js"></script>
-      <!-- MAIN JS -->
-      <script src="js/main.js"></script>
-   </body>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
 
 </html>
